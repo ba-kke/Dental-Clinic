@@ -86,7 +86,7 @@ header .container {
 }
 
 .breadcrumbs {
-  margin: 1.5rem 1rem 1.5rem;
+  margin: 1.5rem 1rem;
   font-size: 1rem;
 }
 
@@ -130,6 +130,7 @@ nav a {
   display: block;
   font-size: 1.3rem;
   color: black;
+  font-weight: bold;
 }
 
 nav a span {
@@ -255,4 +256,68 @@ footer hr {
 
 .footer-under p {
   font-size: 1.4rem;
+}
+
+@media screen and (min-width:481px) {
+  
+}
+
+@media screen and (min-width:761px) {
+
+  html {
+    font-size: 68%;
+  }
+
+  .container {
+    width: 75%;
+  }
+
+  header {
+    margin-top: 3rem;
+  }
+
+  header .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menu-1 .container {
+    width: 75%;
+  }
+
+  .menu-1 .btn {
+    width: 20%;
+  }
+
+  .breadcrumbs {
+    width: 74%;
+    margin: 1.5rem auto;
+  }
+
+  .nav-wrapper {
+    width: 25%;
+  }
+
+  .main-wrapper .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  main {
+    width: 73%;
+  }
+
+  .introduce {
+    display: flex;
+  }
+
+  main img {
+    margin: 0 2rem 0 0;
+  }
+
+  .footer-up .container{
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
 }
